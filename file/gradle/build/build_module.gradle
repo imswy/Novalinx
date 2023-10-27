@@ -19,12 +19,6 @@ apply from: rootProject.file(files.build_router_module_gradle)
 android {
     sourceSets {
         main {
-//            // 判断是否模块化, 加载不同的 AndroidManifest
-//            if (isModular) {
-//                manifest.srcFile "buildSrc/AndroidManifest.xml"
-//            } else {
-//                manifest.srcFile "src/main/AndroidManifest.xml"
-//            }
 
             // 判断是否模块化, 加载不同的 AndroidManifest
             if (isModular) {

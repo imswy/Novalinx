@@ -26,6 +26,7 @@ dependencies {
         implementation project(':module_movie')
         implementation project(':module_person')
         implementation project(':module_tv')
+        implementation project(':module_recommend')
 
         // ==============
         // = 模板 Module =

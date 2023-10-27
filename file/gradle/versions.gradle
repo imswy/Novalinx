@@ -2,7 +2,7 @@ ext {
     versions = [
 
             // 支持最小的 SDK
-            lib_minSdkVersion                        : 14,
+            lib_minSdkVersion                        : 21,
             // 支持最小的 SDK
             app_minSdkVersion                        : 21,
             // Lib 编译 SDK 版本

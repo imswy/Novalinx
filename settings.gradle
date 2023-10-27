@@ -23,6 +23,7 @@ def modules = [
         "module_movie",
         "module_person",
         "module_tv",
+        "module_recommend",
 ]
 
 modules.forEach {

@@ -140,6 +140,10 @@ internal object EnvironmentTypeChecker {
             BuildConfig.ENV_MODULE_TV -> {
                 DevEnvironment.getTvModule()
             }
+            // Recommend Module
+            BuildConfig.ENV_MODULE_RECOMMEND -> {
+                DevEnvironment.getRecommendModule()
+            }
 
             else -> {
                 EMPTY_MODULE
@@ -169,6 +173,10 @@ internal object EnvironmentTypeChecker {
             // TMDB TV Module
             BuildConfig.ENV_MODULE_TV -> {
                 DevEnvironment.getTvReleaseEnvironment()
+            }
+            // Recommend Module
+            BuildConfig.ENV_MODULE_RECOMMEND -> {
+                DevEnvironment.getRecommendReleaseEnvironment()
             }
 
             else -> {
@@ -211,6 +219,10 @@ internal object EnvironmentTypeChecker {
             // TMDB TV Module
             BuildConfig.ENV_MODULE_TV -> {
                 DevEnvironment.getTvEnvironment(context)
+            }
+            // Recommend Module
+            BuildConfig.ENV_MODULE_RECOMMEND -> {
+                DevEnvironment.getRecommendEnvironment(context)
             }
 
             else -> {
@@ -260,6 +272,10 @@ internal object EnvironmentTypeChecker {
             // TMDB TV Module
             BuildConfig.ENV_MODULE_TV -> {
                 DevEnvironment.setTvEnvironment(context, newEnvironment)
+            }
+            // Recommend Module
+            BuildConfig.ENV_MODULE_RECOMMEND -> {
+                DevEnvironment.setRecommendEnvironment(context, newEnvironment)
             }
 
             else -> {

@@ -145,6 +145,19 @@ ext {
                     // 模块功能版本标识 ( 需求、RP 版本 )
                     featureVersion: "23.01.01",
             ],
+            //推荐模块
+            "module_recommend": [
+                    // 版本号
+                    versionCode   : 100,
+                    // 版本名
+                    versionName   : "1.0.0",
+                    // 包名
+                    applicationId : "novalinx.module.recommend",
+                    // 模块名
+                    moduleName    : "RECOMMEND",
+                    // 模块功能版本标识 ( 需求、RP 版本 )
+                    featureVersion: "23.01.01",
+            ]
     ]
 
     // ===============

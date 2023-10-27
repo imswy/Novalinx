@@ -76,4 +76,19 @@ internal class HttpService private constructor() {
         @Environment(value = "https://api.themoviedb.org", alias = "development")
         private val development: String? = null
     }
+
+    @Module(alias = "Recommend Module")
+    private inner class Recommend {
+        @Environment(value = "https://jav.novalinx.top", isRelease = true, alias = "release")
+        private val release: String? = null
+
+        @Environment(value = "https://jav.novalinx.top", alias = "debug")
+        private val debug: String? = null
+
+        @Environment(value = "https://jav.novalinx.top", alias = "pre-release")
+        private val pre_release: String? = null
+
+        @Environment(value = "https://jav.novalinx.top", alias = "development")
+        private val development: String? = null
+    }
 }
