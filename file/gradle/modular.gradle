@@ -22,7 +22,7 @@ ext {
             // ==========
 
             // 模块化编译开关 ( true = 每个模块都是独立应用, false = 整合运行 )
-            isModular = false,
+            isModular = true,
             // 是否 Release 版本标记 ( 用于标记 APK 是否 Release 发布版本 )
             isRelease = false,
             // 服务器环境配置 ( 例: 1 生产环境、2 测试环境、3 预发布环境、4 开发环境 )
